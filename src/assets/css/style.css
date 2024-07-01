@@ -1,0 +1,75 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-font: 'Libre Baskerville', serif;
+    --primary-font-text: 'Jost', sans-serif;
+    --primary-color-green: #134828;
+    --primary-color-white: white;
+    --primary-font-outfit: 'Outfit', sans-serif;
+    --primary-input-field-background: #DFE4E8;
+}
+
+
+:root {
+    --primary-mavbar-background-color: #FFE67C;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    height: fit-content;
+}
+
+
+/* ####rating */
+
+.rating-component {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        left: 40%;
+        position: relative;
+}
+
+.rating-icon {
+    display: inline-block;
+
+}
+
+.rating-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.rating-icon img {
+    width: 50px;
+    /* Adjust icon size as needed */
+    height: 50px;
+    /* Adjust icon size as needed */
+    cursor: pointer;
+}
+
+.rating-icon:hover img {
+    filter: brightness(70%);
+    /* Adjust hover effect as desired */
+}
